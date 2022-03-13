@@ -1,0 +1,63 @@
+.heading{
+	 text-align: center;
+}
+h1 {
+      font-size: 1.5em;
+      font-family: Arial, sans-serif;
+      color: #000000;
+     text-align: center;
+	  text-decoration:underline;
+      transition: font-size 5s ease-out 3s, color 4s ease-in 3s; 
+	  
+     }
+
+h1:hover {
+     cursor: pointer;
+     font-size: 3em;
+     color: #283c7a;
+}
+
+.info{
+	font-size:25px;
+	margin-right: 50%;
+}
+.backgroundimg{
+	width:45%;
+	float: right;
+	filter: drop-shadow(15px 15px 25px blue);
+}
+.game{
+	margin-left:5%;
+	margin-right: 5%;
+	background-color:#cf7682;
+	border-radius: 25px;
+	padding: 3%;
+	}
+#imgblur{
+	width:45%;
+	float: right;
+filter: grayscale(100%);
+}
+img:hover
+{
+  opacity:.7;
+}
+.honor{
+	text-align: center;
+	 text-decoration:underline;
+	 color: blue;
+}
+.honorinfo{
+	font-size:25px;
+	text-align: center;
+}
+.hmimg{
+margin-left:40%;
+width: 25%;
+}
+
+#imgfilter{
+	width:45%;
+	float: right;
+filter: saturate(300%) contrast(180%);;
+}
